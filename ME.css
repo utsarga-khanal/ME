@@ -17,7 +17,7 @@ body {
 .container {
     width: 85%;
     margin: auto;
-    padding: 40px 0;
+    padding: 70px 0 40px;
 }
 
 /* SECTION (GLASS EFFECT) */
@@ -40,6 +40,50 @@ body {
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
 }
+
+/* NAVBAR (SIMPLE) */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #0f172a;
+    border-bottom: 1px solid #1e293b;
+}
+
+.nav-inner {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav-logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e2e8f0;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #94a3b8;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
 
 /* HEADINGS */
 h1 {
